@@ -4,7 +4,7 @@
   "name": "URL Shorten",
   "description": "-.",
   "author": "Me",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "updatedAt": "2026-09-25",
   "tags": [
     "command",
@@ -18,12 +18,8 @@
   "fork": [
     "zen"
   ],
-  "preferences": "preferences.json",
-  "style": {
-    "chrome": "style.css"
-  },
   "scripts": {
-    "urlshorten.uc.js": {
+    "urlshorten.uc.mjs": {
       "include": [
         "chrome://browser/content/browser.xhtml"
       ]
