@@ -1,0 +1,32 @@
+{
+  "id": "urlshorten",
+  "homepage": "",
+  "name": "URL Shorten",
+  "description": "-.",
+  "author": "Me",
+  "version": "1.0.0",
+  "updatedAt": "2026-09-25",
+  "tags": [
+    "command",
+    "palette",
+    "raycast",
+    "arc",
+    "productivity",
+    "zen browser",
+    "urlbar"
+  ],
+  "fork": [
+    "zen"
+  ],
+  "preferences": "preferences.json",
+  "style": {
+    "chrome": "style.css"
+  },
+  "scripts": {
+    "urlshorten.uc.js": {
+      "include": [
+        "chrome://browser/content/browser.xhtml"
+      ]
+    }
+  }
+}
